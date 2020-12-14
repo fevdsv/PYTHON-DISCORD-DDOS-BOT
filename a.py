@@ -1,4 +1,4 @@
-#Made By Draco#8888 On Discord
+#Made By draco#5013 On Discord
 
 import os
 import collections
@@ -203,6 +203,6 @@ async def add(ctx, user):
     await ctx.send(embed=add)
 
 // READ This
-// YOU HAVE HAVE ATTACK.TXT AND BLACKLISTED.TXT DM ON DISCORD draco#3024 IF YOU NEED ANY HELP IMPORTING THOSE INTO THE BOT
+// YOU HAVE HAVE ATTACK.TXT AND BLACKLISTED.TXT DM ON DISCORD draco#5013 IF YOU NEED ANY HELP IMPORTING THOSE INTO THE BOT
 
 bot.run('TOKEN GOES HERE')
