@@ -170,7 +170,7 @@ async def on_error(ctx, error):
         raise error
 
 @bot.command()
-@has_role("Xuzcia Customers")
+#@has_role("Xuzcia Customers")
 async def methods(ctx):
 	meth = discord.Embed(title="𝙓𝙪𝙯𝙘𝙞𝙖 𝙈𝙚𝙩𝙝𝙤𝙙𝙨", description="***-Home Methods-***\nSTD\nUDP\nHEX\nHOLD|7200MAX\nFUZE\nBLEND\nEMBER-HOME\nUDPRAPE\nLDAP\nNTP\nUDPMIX\n***-AMP Methods-***\nDB2\nMEMCACHE\nCHARGEN\nWIZARD\nDOMINATE\n***-TCP Methods-***\nTCP\nTCPx\nVSE\nSYN-KILL\nACK-KILL\nFRAG\nZAP\n***-OVH Methods-***\nOVH\nOVHx\nOVH-KILL\n100UP-KILLER\n***-NFO Methods-***\nNFO\nNFOx\nNFO-KILL\n***-Hydra Methods-***\nHYDRA-KILLER\n***-Dedipath Methods-***\nDEDI-RAPE\n***-VPN Methods-***\nVPN-NULL\n***-Game Methods-***\nFN-LAG\nFN-DROP\nR6-KILL\n2K-CRASH\nRUST-RAPE\nARK-255\n***-Website Methods-***\nWEB-CRUSH\nCF-SOCKETS\nCF-ENGINE\nHTTP-STUN\n***-Other Methods-***\nCNC\nKILLALL", color=0x000000)
 	meth.set_image(url="https://media1.giphy.com/media/Y3YH3vl7AxoadWHQ9c/giphy.gif")
@@ -195,14 +195,14 @@ async def vpnprices(ctx):
     ovh.add_field(name="𝙓𝙪𝙯𝙘𝙞𝙖 𝙇𝙖𝙨 𝙑𝙚𝙜𝙖𝙨 𝙁𝙧𝙖𝙣𝙩𝙚𝙘𝙝", value="$5 Monthly $15 Lifetime | Attack Notifications Included | 100% Uptime | No Log Policy", inline=False)
     await ctx.send(embed=ovh)
 
-@bot.command()
-async def add(ctx, user):
-    f = open("users.txt")
-    f.write("User: "+user+" Plan: "+plan)
-    add = discord.Embed(title=user+"Has Sucessfully Been Added To Xuzcia", color=0x000000)
-    await ctx.send(embed=add)
+#@bot.command()
+#async def add(ctx, user, plan):
+ #   f = open("users.txt")
+  #  f.write("User: "+user+" Plan: "+plan)
+  #  add = discord.Embed(title=user+"Has Sucessfully Been Added To Xuzcia", color=0x000000)
+   # await ctx.send(embed=add)
 
-// READ This
-// YOU HAVE HAVE ATTACK.TXT AND BLACKLISTED.TXT DM ON DISCORD draco#5013 IF YOU NEED ANY HELP IMPORTING THOSE INTO THE BOT
+# READ This
+#YOU HAVE HAVE ATTACK.TXT AND BLACKLISTED.TXT DM ON DISCORD draco#5013 IF YOU NEED ANY HELP IMPORTING THOSE INTO THE BOT
 
 bot.run('TOKEN GOES HERE')
